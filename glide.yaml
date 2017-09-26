@@ -1,0 +1,6 @@
+package: .
+import:
+- package: github.com/docker/docker/client
+  subpackages:
+  - api/types
+  - client

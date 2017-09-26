@@ -1,0 +1,67 @@
+hash: 6e2d2410f7a944f17b2a22e558eeb3cd250aaa44507d76a4b8a38e83bfafd55b
+updated: 2017-09-25T18:52:42.744809707+03:00
+imports:
+- name: github.com/docker/distribution
+  version: 5db89f0ca68677abc5eefce8f2a0a772c98ba52d
+  subpackages:
+  - digestset
+  - reference
+- name: github.com/docker/docker
+  version: c982ee805d895a4fc2bf01f2d1d8afa06b408dd0
+  subpackages:
+  - api
+  - api/types
+  - api/types/blkiodev
+  - api/types/container
+  - api/types/events
+  - api/types/filters
+  - api/types/image
+  - api/types/mount
+  - api/types/network
+  - api/types/registry
+  - api/types/strslice
+  - api/types/swarm
+  - api/types/swarm/runtime
+  - api/types/time
+  - api/types/versions
+  - api/types/volume
+  - client
+  - client
+- name: github.com/docker/go-connections
+  version: 3ede32e2033de7505e6500d6c868c2b9ed9f169d
+  subpackages:
+  - nat
+  - sockets
+  - tlsconfig
+- name: github.com/docker/go-units
+  version: 0dadbb0345b35ec7ef35e228dabb8de89a65bf52
+- name: github.com/gogo/protobuf
+  version: 2adc21fd136931e0388e278825291678e1d98309
+  subpackages:
+  - proto
+- name: github.com/Microsoft/go-winio
+  version: 78439966b38d69bf38227fbf57ac8a6fee70f69a
+- name: github.com/moby/moby
+  version: c982ee805d895a4fc2bf01f2d1d8afa06b408dd0
+  subpackages:
+  - api/types
+- name: github.com/opencontainers/go-digest
+  version: 279bed98673dd5bef374d3b6e4b09e2af76183bf
+- name: github.com/opencontainers/image-spec
+  version: ebd93fd0782379ca3d821f0fa74f0651a9347a3e
+  subpackages:
+  - specs-go
+  - specs-go/v1
+- name: github.com/pkg/errors
+  version: 2b3a18b5f0fb6b4f9190549597d3f962c02bc5eb
+- name: golang.org/x/net
+  version: 0744d001aa8470aaa53df28d32e5ceeb8af9bd70
+  subpackages:
+  - context
+  - context/ctxhttp
+  - proxy
+- name: golang.org/x/sys
+  version: 429f518978ab01db8bb6f44b66785088e7fba58b
+  subpackages:
+  - windows
+testImports: []
